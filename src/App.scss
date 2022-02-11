@@ -1,0 +1,56 @@
+nav{
+    display: flex;
+    width: 97%;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+
+
+    .logo{
+        width: 100px;
+        height: 100px;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .nav__links{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .nav__item{
+            margin-left: 25px;
+            list-style: none;
+            text-transform: uppercase;
+            font-weight: 500;
+
+            a{
+                text-decoration: none;
+                color: orange;
+
+                &:hover{
+                    color: black;
+                }
+
+            }
+        }
+    }
+}
+
+
+.home__container{
+    padding: 50px 20px;
+
+    .homepage__title{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .products__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

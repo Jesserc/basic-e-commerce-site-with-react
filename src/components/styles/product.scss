@@ -1,0 +1,44 @@
+
+.product__page{
+    display: flex;
+
+
+    .product__container{
+        display: flex;
+    
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+
+        .img__container{
+            flex: 1;
+        }
+
+        .text__container{
+            flex: 1;
+            margin-top: 30px;
+            position: relative;
+
+            h6{
+                margin: 10px 0;
+                color: crimson;
+                font-size: 1.5rem;
+                
+            }
+
+            .cart__btn{
+                border: none;
+                background-color: orange;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+
+                position: absolute;
+                bottom: 20px;
+            }
+        }
+    }
+
+}
